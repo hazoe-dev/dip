@@ -1,0 +1,19 @@
+### GET Request
+GET http://localhost:8080/users
+Accept: application/json
+
+### GET Request
+GET http://localhost:8080/users/1
+Accept: application/json
+
+### POST Request
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+
+### DELETE Request
+DELETE http://localhost:8080/users/1
